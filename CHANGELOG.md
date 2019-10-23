@@ -1,16 +1,17 @@
 Scalyr Agent 2 Changes By Release
 =================================
 
-## 2.0.54 "Galactica" - Oct 18, 2019
+## 2.0.54 "Galactica" - Oct 31, 2019
 
 <!---
-Packaged by Steven Czerwinski <czerwin@scalyr.com> on Oct 18, 2019 15:00 -0700
+Packaged by Steven Czerwinski <czerwin@scalyr.com> on Oct 31, 2019 15:00 -0700
 --->
 
 Note, this release is pending an actual release date is TBD
 
 Features
 * Added TSLite support to allow customers using Python 2.6 to connect via TLSv1.1
+* Fix bug resulting in agent stat'ing too many files, impacting K8s monitor
 
 Miscellaneous changes
 * Test cleanups
